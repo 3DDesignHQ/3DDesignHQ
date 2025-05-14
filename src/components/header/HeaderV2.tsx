@@ -1,5 +1,5 @@
 import FooterSocial from '../social/FooterSocial';
-import logo from "/assets/img/logo.png"
+import logo from "/assets/img/logo_sh2.png"
 import logoLight from "/assets/img/logo-light.png"
 import { Link } from "react-router-dom";
 import SidebarMenu from './SidebarMenu';
