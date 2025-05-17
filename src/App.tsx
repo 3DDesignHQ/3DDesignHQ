@@ -16,8 +16,7 @@ import "../src/assets/css/style.css";
 import "../src/assets/css/unit-test.css";
 import "../src/assets/css/validnavs.css";
 
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/react";
+
 import { useEffect, useState } from "react";
 import Routers from "./Routers";
 import Dependency from "./components/utilities/Dependency";
@@ -42,8 +41,8 @@ function App() {
           <Routers />
           <RoutesScrollToTop />
           <Dependency />
-          <SpeedInsights />
-          <Analytics mode="production" />
+         
+         
         </>
       )}
     </>
